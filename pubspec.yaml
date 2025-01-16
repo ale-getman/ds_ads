@@ -11,7 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  ds_common: ^2.0.7
+  ds_common:
+    git:
+      url: https://github.com/ale-getman/ds_common.git
+      ref: comeback_userx
   freezed_annotation: ^2.1.0
   collection: ^1.16.0
 
